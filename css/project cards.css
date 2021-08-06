@@ -1,0 +1,17 @@
+.project_cards{
+	width: 350px;
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100% 100%;
+	display: inline-block;
+	margin: 2%;
+	border-radius: 5px;
+	box-shadow: 19px 20px 11px 5px black;
+	transition: .2s;
+	overflow: hidden;
+	word-break: keep-all;
+	text-overflow: ellipsis;
+	color: white;
+	text-align: center;
+}

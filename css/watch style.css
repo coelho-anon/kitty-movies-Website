@@ -1,0 +1,249 @@
+	       /* width */
+        ::-webkit-scrollbar {
+          width: 9px;
+          scroll-behavior: smooth;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background-color: grey;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #272222;
+          border-radius: 30px;
+          transition: .2s;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #01ffff;
+          transition: .2s;
+        }
+
+
+body{
+  font-family: Verdana, sans-serif;
+  margin:0;
+  padding: 0px;
+  background-color: #2d2d2d;
+}
+
+/*menu*/
+ul{
+  list-style-type: none;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+/*green buttons in menu*/
+.divisoria-menu{
+  background-color: #0aad31;
+  border:none;
+  height: 20px;
+}
+
+/*menu links*/
+#btn-categorias_link{
+  float: left;
+  text-decoration: none;
+  color: white;
+  padding: 1%;
+  font-size: 1.2em;
+  transition: .2s;
+  border: none;
+  background-color: transparent;
+  font-family: Verdana, sans-serif;
+}
+
+#btn-categorias_link:hover{
+  color: #2f9670;
+  transition: .2s;
+  cursor: pointer;
+}
+
+li a{
+  float: left;
+  text-decoration: none;
+  color: white;
+  padding: 1%;
+  font-size: 1.2em;
+  transition: .2s;
+}
+
+li a:hover{
+  color: #2f9670;
+  transition: .2s;
+}
+
+
+
+
+
+
+
+/*movie video*/
+#movie{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+/*download button*/
+#btn_download{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 1% 2%;
+  cursor: pointer;
+  font-size: 20px;
+  transition:.2s;
+  width: 100%;
+  margin-top: 5%;
+}
+
+/*button informations and hide/show everything*/
+#btn_info, #hideShow{
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #2196F3;
+  color: dodgerblue;
+  transition: .2s;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+#btn_info:hover{
+  background: #2196F3;
+  color: white;
+  transition: .2s;
+}
+
+/*hide/show everything*/
+#hideShow{
+  border-color: #f44336;
+  color: red;
+  opacity: 1;
+  transition: .2s;
+}
+
+#hideShow:hover{
+  background: #f44336;
+  color: white;
+  opacity: 1;
+  transition: .2s;
+}
+
+#btn_download:hover{
+  background-color: RoyalBlue;
+  transition:.2s;
+}
+
+#informations_movie{
+  background-color: #615e5e;
+}
+
+.informations{
+  padding: 1%;
+}
+
+
+.info_text{
+  margin-left: 1%;
+  color: white;
+}
+
+/*banner recomends*/
+.postagens_home{
+  font-size: 3em;
+  color: white;
+  border-bottom: 10px solid #8ae214;
+  margin-left: 5%;
+  width: 85%;
+  margin-top: 5%;
+  background-image: linear-gradient(to right, red, purple, blue);
+  box-shadow: -11px 15px 20px 2px #0ddc13;
+  padding: 4px;
+  padding-left: 5px;
+  border-radius: 10px;
+}
+
+/*div gallery of cards*/
+#div-galeria-cards{
+  margin-top: 2%;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*cards*/
+.galeria-cards{
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+  display: inline-block;
+  margin: 2%;
+  border-radius: 5px;
+  box-shadow: 19px 20px 11px 5px black;
+  transition: .2s;
+  overflow: hidden;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+  color: white;
+  text-align: center;
+}
+
+.galeria-cards:hover{
+  cursor: pointer;
+  transition: .2s;
+  box-shadow: 9px 12px 11px 5px #0cff22d9;
+}
+
+/*movie name*/
+.nomeFilme{
+  color: white;
+  width: 100%;
+  font-size: 2em;
+  display: inline-block;
+  margin-top: 78%;
+  overflow: hidden;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+  background-color: black;
+  opacity: .8;
+  padding-bottom: 200%;
+}
+
+/*category div*/
+#group-categ{
+  margin-top: 5%;
+  background-color: #2d393c;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/*category buttons*/
+.categorias{
+  background-color: #1fbd3e;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-size: 2em;
+  margin: .5%;
+  transition: .3s;
+}
